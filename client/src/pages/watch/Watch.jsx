@@ -7,7 +7,7 @@ export default function Watch() {
     <div className="watch">
       <div className="back">
         <ArrowBackOutlined />
-        Home
+        Trang Chủ
       </div>
       <video
         className="video"
