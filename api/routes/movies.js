@@ -44,7 +44,7 @@ router.put("/:id", verify, async (req, res) => {
 router.delete("/:id", verify, async (req, res) => {
   if (req.user.isAdmin) {
     try {
-      await Movie.findByIdAndDelete(req.params.id);
+      await Movie.findByIdAndDelete(req.params.id); 
       res.status(200).json("Phim đã được xóa!");
     } catch (err) {
       res.status(500).json(err);

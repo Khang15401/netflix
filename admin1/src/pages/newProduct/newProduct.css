@@ -4,6 +4,9 @@
 
 .addProductForm {
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 .addProductItem {
@@ -11,6 +14,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  padding: 20px;
 }
 
 .addProductItem > label {
@@ -28,7 +32,9 @@
 }
 
 .addProductButton {
+  height: 30px;
   margin-top: 10px;
+  align-self: center;
   padding: 7px 10px;
   border: none;
   border-radius: 10px;
